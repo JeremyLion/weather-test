@@ -62,7 +62,7 @@ const WeatherPage = () => {
             onChange={handleChange}
           />
           <button type="submit" className="btn btn-primary btn-block">
-            Login
+            Search
           </button>
         </div>
         {error ? <div className="text-danger">IP Address Invalid</div> : null}
